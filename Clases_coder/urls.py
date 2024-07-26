@@ -24,12 +24,13 @@ from Clases_coder.views import (
     probando_template,
     usando_loader,
 )
+from AppCoder.views import curso
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("saludo/", saludo),
     path("alejo/", alejandro),
     path("dia/", dia_de_hoy),
-    path("probando_template/", probando_template),
+    path("curso/<nombre>/<numero>/", curso),
     path("usando_loader/", usando_loader),
 ]
