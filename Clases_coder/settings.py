@@ -54,7 +54,7 @@ ROOT_URLCONF = "Clases_coder.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": ["./Clases_Coder/plantillas/"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
